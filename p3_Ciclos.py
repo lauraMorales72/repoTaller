@@ -1,5 +1,4 @@
-'''
-Ejemplos de como implementar un ciclo en python'''
+#Ejemplos de como implementar un ciclo en python'''
 
 #Muestra la serie numérica de los primeros 10 número
 print("Primer ciclo")
