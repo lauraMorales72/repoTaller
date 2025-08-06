@@ -9,7 +9,12 @@ while calificacion > 0:
         suma = suma + calificacion
         print("suma:",suma)
     contador = contador + 1
-promedio = suma/ (contador-1)
-print("calificaciones ingresadas",contador-1)
-print("el promedio es:",promedio)
+
+if contador-1 > 0:
+    promedio = suma/ (contador-1)
+    print("calificaciones ingresadas",contador-1)
+    print("el promedio es:",promedio)
+else:
+    print("no hay calificaciones que promediar")
+
 print("Terminaste el ciclo.")
